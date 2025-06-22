@@ -1,0 +1,30 @@
+### GET REQUEST
+
+POST http://localhost:5000/register/
+Content-Type:application/json
+
+{
+    "username": "maruthid",
+    "name": "maruthi",
+    "password": "maruthi@123",
+    "gender": "male"
+}
+
+###
+GET http://localhost:5000/user/
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpbmVzaGdiIiwiaWF0IjoxNzUwNDI2NTY5fQ._ssQqv9a-ciYAz3wn2lH5r_mNpUzpGiRA5muCDZjUxQ
+
+###
+
+POST http://localhost:5000/login/
+Content-Type:application/json 
+
+{
+    "username":"dineshgb",
+    "password":"dinesh@123"
+}
+
+###
+
+
+

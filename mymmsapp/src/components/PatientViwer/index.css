@@ -1,0 +1,86 @@
+.iconss{
+    color:#ffffff;
+    margin:14px;
+    
+}
+
+.icon-calender{
+    color:blue;
+    font-size:25px;
+    margin-right:7px;
+    
+}
+
+.image-icon{
+    font-size:50px;
+    color:#5e6163;
+}
+
+.photo-image{
+    font-size:30px;
+}
+
+.right-icon{
+    color:#ffffff;
+    font-size:23px;
+}
+
+.mentionContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:20px;
+    width:33%;
+
+}
+
+.number{
+    border-radius:50%;
+    background-color:#71a6bf;
+    font-size:10px;
+}
+.num{
+    margin:7px;
+}
+
+.medicationContainer{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.heading{
+    font-size:14px;
+    font-family:"Roboto";
+    font-weight:500;
+    color:black;
+}
+
+.text{
+    font-size:12px;
+    font-family:"Roboto";
+    font-weight:500;
+    color:#a1aaad;
+    margin-top:0px;
+}
+
+.timecontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-right:20px;
+}
+
+.time{
+    font-size:20px;
+    margin:5px;
+}
+
+.times{
+    font-size: 20px;
+    margin-right:5px;
+}
